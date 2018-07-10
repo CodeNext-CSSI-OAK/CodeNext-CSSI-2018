@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+// Author: FirstName LastName
+=======
 // Author: FirstName LastName
 var x, y, z;
 x = 10;
@@ -20,3 +23,4 @@ x++;
 y -= x;
 z = x - y;
 x -= z;
+>>>>>>> 06fc1598b62d753eb3cbf98db212f697083d6077

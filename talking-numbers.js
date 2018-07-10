@@ -1,5 +1,5 @@
 // Author: FirstName LastName
-var readline = require("readline-sync");
+let readline = require("readline-sync");
 
 /******************************************************************************
                                   printGreeting()
@@ -61,7 +61,7 @@ function sayTwentyNinety(num) {
 
   To do this, first declare a variable named wordForm at the top of the
   function. This will be the string you will return at the end of the function,
-  so initialize it to an empty string at the start: var wordForm = "";
+  so initialize it to an empty string at the start: let wordForm = "";
 
   Your first conditional statement should check if num is equal to 0. If so,
   set wordForm to the string "zero".

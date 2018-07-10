@@ -1,8 +1,14 @@
 // Author: FirstName LastName
-var readline = require("readline-sync");
+let readline = require("readline-sync");
 
 // global variables
-var firstName, lastName, momMaidenName, cityBorn, dreamCar, street, fantasyName;
+let firstName;
+let lastName;
+let momMaidenName;
+let cityBorn;
+let dreamCar;
+let street;
+let fantasyName;
 
 /******************************************************************************
                                   getNewFirstName()

@@ -27,7 +27,8 @@ const READLINE = require("READLINE-sync");
   not (false).
 *******************************************************************************/
 
-var contacts, quit;
+let contacts; 
+let quit;
 
 /******************************************************************************
                                   printGreeting()

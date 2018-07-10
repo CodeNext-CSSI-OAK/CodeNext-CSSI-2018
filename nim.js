@@ -1,5 +1,5 @@
 // Author: FirstName lastName
-var readline = require("readline-sync");
+let readline = require("readline-sync");
 
 /******************************************************************************
                                 global variables
@@ -17,7 +17,9 @@ Boolean. Represents if the player has chosen to quit the game (true) or not
 (false). Initialized to false in run(), can be altered in processResult().
 *******************************************************************************/
 
-var stonesRemaining, activePlayer, quit;
+let stonesRemaining;
+let activePlayer;
+let quit;
 
 /******************************************************************************
                                   printGreeting()

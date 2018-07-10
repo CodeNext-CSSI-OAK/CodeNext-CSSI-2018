@@ -84,7 +84,10 @@ const WORDS = ("ant baboon badger bat bear beaver camel cat clam cobra cougar co
   processGameOver();
 *******************************************************************************/
 
-var missedLetters, correctLetters, secretWord, running;
+let missedLetters;
+let correctLetters;
+let secretWord;
+let running;
 
 /******************************************************************************
                                   printGreeting()
@@ -203,9 +206,9 @@ function getGuess(alreadyGuessed) {
 
   You can concatenate arrays using the array.concat() method. For example:
 
-  var array1 = ["a", "b", "c"];
-  var array2 = ["d", "e", "f"];
-  var array3 = array1.concat(array2);
+  let array1 = ["a", "b", "c"];
+  let array2 = ["d", "e", "f"];
+  let array3 = array1.concat(array2);
 
   The value of array3 is ["a", "b", "c", "d", "e", "f"].
 *******************************************************************************/

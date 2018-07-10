@@ -37,7 +37,11 @@ Boolean. Represents if the player has chosen to quit the game (true) or not
 (false).
 *******************************************************************************/
 
-var board, turnsLeft, activePlayer, winner, quit;
+let board;
+let turnsLeft;
+let activePlayer;
+let winner;
+let quit;
 
 /******************************************************************************
                                   printGreeting()
