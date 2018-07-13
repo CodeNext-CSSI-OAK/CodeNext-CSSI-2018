@@ -18,11 +18,11 @@ function printGreeting() {
   function returns an empty string, which is just "".
 
   Examples:
-  sayZeroNine(5) → "five"
-  sayZeroNine(8) → "eight"
-  sayZeroNine(13) → ""
+  sayOneNine(5) → "five"
+  sayOneNine(8) → "eight"
+  sayOneNine(13) → ""
 *******************************************************************************/
-function sayZeroNine(num) {
+function sayOneNine(num) {
 
 }
 
